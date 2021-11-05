@@ -1,0 +1,169 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+	position: relative;
+	min-height: 100%;
+	max-height: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding-top: 3.5rem;
+	margin-bottom: 10rem;
+	/* Margin bottom by footer height */
+	font-family: "Ubuntu", sans-serif;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	/* Set the fixed height of the footer here */
+	line-height: 60px;
+	/* Vertically center the text there */
+	background-color: #494747;
+	color: #EEEEEE;
+	text-align: center;
+	overflow: hidden;
+	font-size: 0.7rem;
+}
+
+.container.ftr {
+	margin-top: 0;
+}
+.navbar-brand {
+	font-size: 1.5em;
+	font-family: "Ubuntu Condensed", sans-serif;
+}
+.navbar-nav {
+	padding-left: 5em;
+}
+
+.nav-item {
+	margin-left: 2em;
+	font-size: 0.9rem;
+}
+.orange {
+	color: #F17704;
+}
+.text-purple {
+	color: #8d33a3 !important;
+}
+
+.bg-dark {
+	background-color: #494747;
+}
+
+.bg-transp {
+	background-color: rgba(198, 211, 230, 0.7);
+}
+
+.frontpage {
+	background-image: url('../images/laptop.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+main {
+	padding-bottom: 65px !important;
+}
+
+.spring {
+	background-image: url('../images/kingsgarden.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.summer {
+	background-image: url('../images/summer.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.autumn {
+	background-image: url('../images/fall.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.winter {
+	background-image: url('../images/winter.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.container.jumbo {
+	background-color: rgb(200,200,200);
+	background-color: rgba(200,200,200, 0.5);
+	padding: 2em;
+}
+
+
+fieldset {
+	margin-top: 5em;
+	width: 80vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.error {
+	font-size: 1.2em;
+	font-family: "Quicksand", sans-serif;
+	color: indianred;
+	text-align: center;
+	margin-top: 2em;
+}
+
+.welcome {
+	font-size: 1.2em;
+	font-family: "Quicksand", sans-serif;
+	color: darkorange;
+	text-align: center;
+}
+div.container, .container.message {
+	margin-top: 2em;
+	margin-bottom: 10em;
+}
+
+p.intro {
+	font-family: "Ubuntu Condensed", sans-serif;
+	font-size: 2em;
+	text-align: center;
+	color: #F17704;
+}
+
+.intro.spring {
+	color: #F69256;
+}
+
+.intro.summer {
+	color: #FAC22B;;
+}
+.intro.winter {
+	color: steelblue;
+}
+
+.t15 {
+	margin-top: 30vh;
+}
+
+.hideme {
+	display: none;
+}
+
+.container {
+    margin-bottom: 80px;
+}
+
+.blockquote {
+	font-size: 0.85rem;
+}
